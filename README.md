@@ -1,6 +1,6 @@
 # 🏛️ Aureus
 
-![Status do Projeto](https://img.shields.io/badge/Status-Em_Planejamento-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Em_Andamento-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ---
@@ -21,19 +21,37 @@ Construir um portfólio de suma autoria, aplicando boas práticas como:
 
 ---
 
+## 🏷️ Badges de Status: Legendas e Cores
+
+Para facilitar a visualização do progresso de cada módulo do projeto **Aureus**, utilizamos a seguinte convenção de cores semânticas nas badges:
+
+| Cor | Exemplo Visual | Significado e Uso |
+| :--- | :--- | :--- |
+| **Verde** | ![Verde](https://img.shields.io/badge/Verde-Verde-success?style=for-the-badge) | Concluído, Estável, Aprovado |
+| **Azul** | ![Azul](https://img.shields.io/badge/Azul-Azul-blue?style=for-the-badge) | Em andamento, Planejamento |
+| **Roxo** | ![Roxo](https://img.shields.io/badge/Roxo-Roxo-blueviolet?style=for-the-badge) | Revisão, Refatoração |
+| **Amarelo** | ![Amarelo](https://img.shields.io/badge/Amarelo-Amarelo-yellow?style=for-the-badge) | Informação, Atenção |
+| **Vermelho** | ![Vermelho](https://img.shields.io/badge/Vermelho-Vermelho-red?style=for-the-badge) | Pendente, Erro, Parado/Bloqueado |
+| **Cinza** | ![Cinza](https://img.shields.io/badge/Cinza-Cinza-lightgrey?style=for-the-badge) | Backlog, Arquivado, Não Iniciado |
+
+> [!CAUTION]
+> Esta convenção de cores aplica-se exclusivamente às badges de status do projeto. Outras badges do repositório podem não seguir esta mesma paleta.
+
+---
+
 ## 📚 Central de Documentação
 
 Este repositório atua como o **Hub Central** do projeto. Aqui você encontra toda a documentação técnica, decisões arquiteturais e o plano de execução.
 
 ### Navegue pelos Módulos:
 
-| Disponível | Módulo (Hyperlink) | Descrição | O que você vai encontrar |
+| Disponível | Módulo (Hiperlink) | Descrição | O que você vai encontrar |
 | :--- | :--- | :--- | :--- |
-| 🔴 | [![GitHub](https://img.shields.io/badge/🚧_(Em_breve)-black)](https://github.com/gPagio/projeto-aureus-docs) | **Gestão do Projeto** | O Roadmap, fases de entrega e checklists. |
+| 🔴 | [![GitHub](https://img.shields.io/badge/🚧_(Em_breve)-black?style=for-the-badge)](https://github.com/gPagio/projeto-aureus-docs) | **Gestão do Projeto** | O Roadmap, fases de entrega e checklists. |
 | 🟢 | **[📂 /database](./database)** | **Modelagem de Dados** | O DER (Diagrama Entidade-Relacionamento). |
-| 🔴 | [![GitHub](https://img.shields.io/badge/🚧_(Em_breve)-black)](https://github.com/gPagio/projeto-aureus-docs) | **Especificação Backend** | Diagramas de Classe (Domínio Java), Swagger e fluxos. |
-| 🔴 | [![GitHub](https://img.shields.io/badge/🚧_(Em_breve)-black)](https://github.com/gPagio/projeto-aureus-docs) | **Coleções Postman** | Coleções do Postman que mostram o comportamento da aplicação por meio de seus endpoints. |
-| 🔴 | [![GitHub](https://img.shields.io/badge/🚧_(Em_breve)-black)](https://github.com/gPagio/projeto-aureus-docs) | **Design Frontend** | Wireframes, Guias de Estilo e protótipos de tela. |
+| 🔴 | [![GitHub](https://img.shields.io/badge/🚧_(Em_breve)-black?style=for-the-badge)](https://github.com/gPagio/projeto-aureus-docs) | **Especificação Backend** | Diagramas de Classe (Domínio Java), Swagger e fluxos. |
+| 🔴 | [![GitHub](https://img.shields.io/badge/🚧_(Em_breve)-black?style=for-the-badge)](https://github.com/gPagio/projeto-aureus-docs) | **Coleções Postman** | Coleções do Postman que mostram o comportamento da aplicação por meio de seus endpoints. |
+| 🔴 | [![GitHub](https://img.shields.io/badge/🚧_(Em_breve)-black?style=for-the-badge)](https://github.com/gPagio/projeto-aureus-docs) | **Design Frontend** | Wireframes, Guias de Estilo e protótipos de tela. |
 
 ---
 
@@ -41,10 +59,10 @@ Este repositório atua como o **Hub Central** do projeto. Aqui você encontra to
 
 O projeto **Aureus** adota uma estratégia **Multi-Repo** para separar responsabilidades.
 
-| Disponível | Componente | Stack Tecnológica | Repositório (Hyperlink) |
+| Disponível | Componente | Stack Tecnológica | Repositório (Hiperlink) |
 | :--- | :--- | :--- | :--- |
-| 🔴 | **Backend API** | Java 21, Spring Boot 4, JPA | [![GitHub](https://img.shields.io/badge/GitHub-🚧_(Em_breve)-black?logo=github)](https://github.com/gPagio/projeto-aureus-docs)  |
-| 🔴 | **Frontend Web** | Vite, React 19, TailwindCSS | [![GitHub](https://img.shields.io/badge/GitHub-🚧_(Em_breve)-black?logo=github)](https://github.com/gPagio/projeto-aureus-docs) |
+| 🔴 | **Backend API** | Java 21, Spring Boot 4, JPA | [![GitHub](https://img.shields.io/badge/GitHub-🚧_(Em_breve)-black?style=for-the-badge&logo=github)](https://github.com/gPagio/projeto-aureus-docs)  |
+| 🔴 | **Frontend Web** | Vite, React 19, TailwindCSS | [![GitHub](https://img.shields.io/badge/GitHub-🚧_(Em_breve)-black?style=for-the-badge&logo=github)](https://github.com/gPagio/projeto-aureus-docs) |
 | 🟢 | **Docs (Este)** | Markdown, Mermaid, Postman | *Você está aqui* |
 
 ---
@@ -53,7 +71,7 @@ O projeto **Aureus** adota uma estratégia **Multi-Repo** para separar responsab
 
 | Contexto | Tecnologias |
 | :--- | :--- |
-| **Back-end** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white) |
-| **Front-end** | ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) |
-| **Banco de Dados** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) |
-| **DevOps & Tools** | ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=square&logo=kubernetes&logoColor=white) |
+| **Back-end** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white) |
+| **Front-end** | ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) |
+| **Banco de Dados** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) |
+| **DevOps & Tools** | ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) |
