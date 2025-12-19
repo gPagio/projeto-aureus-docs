@@ -27,7 +27,7 @@ Este repositório atua como o **Hub Central** do projeto. Aqui você encontra to
 
 ### Navegue pelos Módulos:
 
-| Disponível | Módulo | Descrição | O que você vai encontrar |
+| Disponível | Módulo (Hyperlink) | Descrição | O que você vai encontrar |
 | :--- | :--- | :--- | :--- |
 | 🔴 | [![GitHub](https://img.shields.io/badge/🚧_(Em_breve)-black)](https://github.com/gPagio/projeto-aureus-docs) | **Gestão do Projeto** | O Roadmap, fases de entrega e checklists. |
 | 🟢 | **[📂 /database](./database)** | **Modelagem de Dados** | O DER (Diagrama Entidade-Relacionamento). |
@@ -41,7 +41,7 @@ Este repositório atua como o **Hub Central** do projeto. Aqui você encontra to
 
 O projeto **Aureus** adota uma estratégia **Multi-Repo** para separar responsabilidades.
 
-| Disponível | Componente | Stack Tecnológica | Repositório |
+| Disponível | Componente | Stack Tecnológica | Repositório (Hyperlink) |
 | :--- | :--- | :--- | :--- |
 | 🔴 | **Backend API** | Java 21, Spring Boot 4, JPA | [![GitHub](https://img.shields.io/badge/GitHub-🚧_(Em_breve)-black?logo=github)](https://github.com/gPagio/projeto-aureus-docs)  |
 | 🔴 | **Frontend Web** | Vite, React 19, TailwindCSS | [![GitHub](https://img.shields.io/badge/GitHub-🚧_(Em_breve)-black?logo=github)](https://github.com/gPagio/projeto-aureus-docs) |
