@@ -38,8 +38,8 @@ Table despesas {
   data_compra timestamptz
   valor_parcela numeric [not null]
   quantidade_parcelas int
-  data_primeira_parcela timestamptz [not null]
-  data_ultima_parcela timestamptz
+  data_primeira_parcela date [not null]
+  data_ultima_parcela date
   observacoes varchar
 }
 
@@ -54,7 +54,7 @@ Table receitas {
   tipo_receita varchar [not null, Note: 'FIXA, VARIÁVEL']
   valor_parcela numeric [not null]
   quantidade_parcelas int
-  data_primeira_parcela timestamptz [not null]
-  data_ultima_parcela timestamptz
+  data_primeira_parcela date [not null]
+  data_ultima_parcela date
   observacoes varchar
 }
