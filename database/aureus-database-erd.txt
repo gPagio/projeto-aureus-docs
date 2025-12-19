@@ -26,8 +26,8 @@ Table despesas {
   categoria_id uuid [not null, ref: > categorias.id] 
   descricao varchar [not null]
   tipo_despesa varchar [not null, Note: 'FIXA, VARIÁVEL']
-  local_compra varchar [not null]
-  data_compra timestamp [not null]
+  local_compra varchar
+  data_compra timestamp
   valor_parcela numeric [not null]
   quantidade_parcelas int
   data_primeira_parcela timestamp [not null]
