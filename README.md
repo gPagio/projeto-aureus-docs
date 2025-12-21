@@ -30,9 +30,9 @@ Para facilitar a visualização do progresso de cada módulo do projeto **Aureus
 | **Verde** | ![Verde](https://img.shields.io/badge/Verde-Verde-success?style=for-the-badge) | Concluído, Estável, Aprovado |
 | **Azul** | ![Azul](https://img.shields.io/badge/Azul-Azul-blue?style=for-the-badge) | Em andamento, Planejamento |
 | **Roxo** | ![Roxo](https://img.shields.io/badge/Roxo-Roxo-blueviolet?style=for-the-badge) | Revisão, Refatoração |
-| **Amarelo** | ![Amarelo](https://img.shields.io/badge/Amarelo-Amarelo-yellow?style=for-the-badge) | Informação, Atenção |
-| **Vermelho** | ![Vermelho](https://img.shields.io/badge/Vermelho-Vermelho-red?style=for-the-badge) | Pendente, Erro, Parado/Bloqueado |
-| **Cinza** | ![Cinza](https://img.shields.io/badge/Cinza-Cinza-lightgrey?style=for-the-badge) | Backlog, Arquivado, Não Iniciado |
+| **Amarelo** | ![Amarelo](https://img.shields.io/badge/Amarelo-Amarelo-yellow?style=for-the-badge) | Pendente |
+| **Vermelho** | ![Vermelho](https://img.shields.io/badge/Vermelho-Vermelho-red?style=for-the-badge) | Erro, Parado |
+| **Cinza** | ![Cinza](https://img.shields.io/badge/Cinza-Cinza-lightgrey?style=for-the-badge) | Arquivado, Não Iniciado |
 
 > [!CAUTION]
 > Esta convenção de cores aplica-se exclusivamente às badges de status do projeto. Outras badges do repositório podem não seguir esta mesma paleta.
