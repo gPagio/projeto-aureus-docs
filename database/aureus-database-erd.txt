@@ -35,7 +35,7 @@ Table despesas {
   descricao varchar [not null]
   tipo_despesa varchar [not null, Note: 'FIXA, VARIÁVEL']
   local_compra varchar
-  data_compra timestamptz
+  data_compra date
   valor_parcela numeric [not null]
   quantidade_parcelas int
   data_primeira_parcela date [not null]
