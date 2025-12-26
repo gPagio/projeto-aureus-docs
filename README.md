@@ -1,6 +1,6 @@
 # 🏛️ Aureus
 
-![Status](https://img.shields.io/badge/Status-Em_Andamento-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Em_Andamento-yellow?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ---
@@ -15,39 +15,21 @@ Visando mostrar todas as minhas habilidades, vou tentar utilizar tudo o que já 
 
 ### 🎯 Objetivo
 Construir um portfólio de suma autoria, aplicando boas práticas como:
-* **Design First:** Modelagem de dados e wireframes antes do código.
-* **API First:** Contratos definidos (Swagger/OpenAPI) e testáveis.
-* **DevOps:** Containerização, orquestração e CI/CD.
-
----
-
-## 🏷️ Badges de Status: Legendas e Cores
-
-Para facilitar a visualização do progresso de cada módulo do projeto **Aureus**, utilizamos a seguinte convenção de cores semânticas nas badges:
-
-| Cor | Exemplo Visual | Significado e Uso |
-| :--- | :--- | :--- |
-| **Verde** | ![Verde](https://img.shields.io/badge/Verde-Verde-success?style=for-the-badge) | Concluído, Estável, Aprovado |
-| **Azul** | ![Azul](https://img.shields.io/badge/Azul-Azul-blue?style=for-the-badge) | Em andamento, Planejamento |
-| **Roxo** | ![Roxo](https://img.shields.io/badge/Roxo-Roxo-blueviolet?style=for-the-badge) | Revisão, Refatoração |
-| **Amarelo** | ![Amarelo](https://img.shields.io/badge/Amarelo-Amarelo-yellow?style=for-the-badge) | Pendente |
-| **Vermelho** | ![Vermelho](https://img.shields.io/badge/Vermelho-Vermelho-red?style=for-the-badge) | Erro, Parado |
-| **Cinza** | ![Cinza](https://img.shields.io/badge/Cinza-Cinza-lightgrey?style=for-the-badge) | Arquivado, Não Iniciado |
-
-> [!CAUTION]
-> Esta convenção de cores aplica-se exclusivamente às badges de status do projeto. Outras badges do repositório podem não seguir esta mesma paleta.
+- **Design First:** Modelagem de dados e wireframes antes do código.
+- **API First:** Contratos definidos (Swagger/OpenAPI) e testáveis.
+- **DevOps:** Containerização, orquestração e CI/CD.
 
 ---
 
 ## 📚 Central de Documentação
 
-Este repositório atua como o **Hub Central** do projeto. Aqui você encontra toda a documentação técnica, decisões arquiteturais e o plano de execução.
+Este repositório atua como o **Hub Central** do projeto, adotando um conceito conhecido como **Single Source of Truth**, em português **Fonte Única da Verdade**. Aqui você encontra toda a documentação técnica, decisões arquiteturais e o plano de execução.
 
-### Navegue pelos Módulos:
+### Navegue pelos Componentes da Documentação
 
-| Disponível | Módulo (Hiperlink) | Descrição | O que você vai encontrar |
+| Disponível | Componente (Hiperlink) | Descrição | O que você vai encontrar |
 | :--- | :--- | :--- | :--- |
-| 🔴 | [![GitHub](https://img.shields.io/badge/🚧_(Em_breve)-black?style=for-the-badge)](https://github.com/gPagio/projeto-aureus-docs) | **Gestão do Projeto** | O Roadmap, fases de entrega e checklists. |
+| 🔴 | [![GitHub](https://img.shields.io/badge/🚧_(Em_breve)-black?style=for-the-badge)](https://github.com/gPagio/projeto-aureus-docs) | **Gestão do Projeto** | Plano de execução, requisitos. |
 | 🟢 | **[📂 /database](./database)** | **Modelagem de Dados** | O DER (Diagrama Entidade-Relacionamento). |
 | 🔴 | [![GitHub](https://img.shields.io/badge/🚧_(Em_breve)-black?style=for-the-badge)](https://github.com/gPagio/projeto-aureus-docs) | **Especificação Backend** | Diagramas de Classe (Domínio Java), Swagger e fluxos. |
 | 🔴 | [![GitHub](https://img.shields.io/badge/🚧_(Em_breve)-black?style=for-the-badge)](https://github.com/gPagio/projeto-aureus-docs) | **Coleções Postman** | Coleções do Postman que mostram o comportamento da aplicação por meio de seus endpoints. |
@@ -55,15 +37,42 @@ Este repositório atua como o **Hub Central** do projeto. Aqui você encontra to
 
 ---
 
-## 🏗️ Ecossistema do Projeto (Repositórios)
+## 🏗️ Módulos do Projeto (Repositórios)
 
 O projeto **Aureus** adota uma estratégia **Multi-Repo** para separar responsabilidades.
 
-| Disponível | Componente | Stack Tecnológica | Repositório (Hiperlink) |
+| Disponível | Módulo | Stack Tecnológica | Repositório (Hiperlink) |
 | :--- | :--- | :--- | :--- |
 | 🟢 | **Docs (Este)** | Markdown, Mermaid, Postman | *Você está aqui* |
 | 🔴 | **Backend API** | Java 21, Spring Boot 4, JPA | [![GitHub](https://img.shields.io/badge/GitHub-🚧_(Em_breve)-black?style=for-the-badge&logo=github)](https://github.com/gPagio/projeto-aureus-docs)  |
 | 🔴 | **Frontend Web** | Vite, React 19, TailwindCSS | [![GitHub](https://img.shields.io/badge/GitHub-🚧_(Em_breve)-black?style=for-the-badge&logo=github)](https://github.com/gPagio/projeto-aureus-docs) |
+
+---
+
+## 🚦 Status e Roadmap: Acompanhamento do Projeto
+
+O status de cada módulo comunica a situação geral dos mesmos. O objetivo é basicamente informar de forma rápida como está o desenvolvimento de cada módulo com uma simples badge de status com determinada legenda e cor.
+
+Já nos projetos do **GitHub Projects** estão todas as tarefas de cada módulo de forma detalhada. Assim como o status, cada módulo tem seu projeto no **GitHub Projects**, aninhando todas as etapas de desenvolvimento.
+
+### 🏷️ Badges de Status: Legendas e Cores
+
+Para facilitar a visualização do status de cada módulo do projeto **Aureus**, utilizamos a seguinte convenção de cores semânticas nas badges:
+
+| Cor | Exemplo Visual | Significado e Uso |
+| :--- | :--- | :--- |
+| **Verde** | ![Verde](https://img.shields.io/badge/Verde-Verde-success?style=for-the-badge) | Concluído |
+| **Amarelo** | ![Amarelo](https://img.shields.io/badge/Amarelo-Amarelo-yellow?style=for-the-badge) | Em Andamento |
+| **Vermelho** | ![Vermelho](https://img.shields.io/badge/Vermelho-Vermelho-red?style=for-the-badge) | Parado |
+| **Cinza** | ![Cinza](https://img.shields.io/badge/Cinza-Cinza-lightgrey?style=for-the-badge) | Arquivado |
+
+> [!CAUTION]
+> Esta convenção de cores aplica-se exclusivamente às badges de status do projeto. Outras badges do repositório podem não seguir esta mesma paleta.
+
+### 🖼️ Board de Tarefas
+O acompanhamento detalhado das tarefas, especificações e progresso da documentação é gerenciado através do **GitHub Projects**. Para ver o que está sendo trabalhado em tempo real, acesse o quadro abaixo:
+
+[![Acessar Board de Documentação](https://img.shields.io/badge/Ver_Roadmap_no_Board-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/users/gPagio/projects/2)
 
 ---
 
