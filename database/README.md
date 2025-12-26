@@ -1,9 +1,5 @@
 # Database Docs
 
-## Status
-![ERD Status](https://img.shields.io/badge/ERD-Concluído-success?style=for-the-badge)
-![Implementação Status](https://img.shields.io/badge/Implementação-Não_Iniciado-gray?style=for-the-badge)
-
 ## Links do Modelo
 [![Ver Código](https://img.shields.io/badge/Source-Código_DBML-blueviolet?style=for-the-badge)](./aureus-database-erd.txt)
 [![Ferramenta DBML](https://img.shields.io/badge/TOOL_DBML-DBDIAGRAM.IO-blue?style=for-the-badge)](https://dbdiagram.io)
